@@ -6,8 +6,8 @@ export default function Clock() {
            setInterval(() => setDateState(new Date()), 30000);
     }, []);
     return (
-        <div>
-            {/* <CalenderIcon />
+        <div className='clock'>
+            {/* <CalenderIcon /> */}
             <p>
               {' '}
               {dateState.toLocaleDateString('en-GB', {
@@ -15,7 +15,7 @@ export default function Clock() {
                  month: 'short',
                  year: 'numeric',
               })}
-            </p> */}
+            </p><hr />
             <p>
              {dateState.toLocaleString('en-US', {
                 hour: 'numeric',
