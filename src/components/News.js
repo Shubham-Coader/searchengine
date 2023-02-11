@@ -3,7 +3,7 @@ import React from 'react';
 export default function News() {
   return (
     <div className='container'>
-      <div class="jumbotron bg-dark text-light ">
+      <div class="jumbotron text-light ">
         <div className="newsHeading">
           <h1>Turn on Brave News, and never miss a story</h1>
           <p>
