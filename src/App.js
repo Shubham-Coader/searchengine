@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import News from './components/News';
 import Search from './components/Search';
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <Search/>
       <News/>
+      <Footer/>
     </div>
   );
 }

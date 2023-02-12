@@ -39,7 +39,7 @@
   }
 }
 
-.header{
+.header {
   /* background-color: hwb(228 44% 54%); */
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
@@ -53,7 +53,7 @@
   font-size: 40px;
 }
 
-.search{
+.search {
   margin-top: 5%;
   width: 80%;
   height: 40px;
@@ -65,7 +65,7 @@
   padding: 50px 20px;
   margin: 20%;
   border-radius: 5px;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   /* backdrop-filter: saturate(180%) blur(10px); */
 }
 
@@ -76,8 +76,9 @@
   }
 }
 
-.newsHeading{
+.newsHeading {
   font-weight: 30px;
   font-style: bold;
   color: #000000;
+
 }

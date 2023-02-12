@@ -19,6 +19,5 @@ export default function Search() {
         <button className='btn btn-warning mt-5'>Search</button><br/>
         <span className='mt-5'>Value: {inputProps.value} </span>
     </div>
-    
   )
 }

@@ -13,6 +13,6 @@ export default function News() {
           </p>
         </div>
       </div>
-      </div>
+    </div>
   )
 }
